@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accountant's Hand </title>
+                         
+     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/finalWork.css">
+    
+</head>
+<body>
+   <img src="/assets/img/hero-image.png" alt="Hero Image" class="hero-image">
+   <img src="/assets/img/light-mode.svg" alt="darkmode" class="dark-mode-icon" id="btndark" >
+   
+       <p class="information-text">Like every year, your client's  registered incomes is used to determine the category of the single tribute, is very important that you keep a balance of it.<br>
+        <i>You should considerer only from 1/01/xx till 31/12/xx regardless that the payment was successfuly done. </i> </p>
+  
+<table class="information-table" >
+    <th>Category</th>
+    <th>Maximum income per category</th>
+    <th>Amount to pay</th>
+        <tr>
+            <td>A</td>
+            <td>$466201</td>
+            <td>$3334</td>
+        </tr>
+        <tr>
+            <td>B</td>
+             <td>$693002</td>
+            <td>$3728</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>$970203</td>
+            <td>$4190</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>$1335604</td>
+            <td>$4907</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>$1764006</td>
+            <td>$5936</td>
+        </tr>
+        <tr>
+            <td>F</td>
+            <td>$2205007</td>
+            <td>$6825</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>$2646009</td>
+            <td>$7772</td>
+        </tr>
+        <tr>    
+            <td>H</td>
+            <td>$3276011</td>
+            <td>$13445</td>
+    </tr>
+
+
+    </table>
+   
+
+
+        
+    <H4 class="web-tittle">Write your client's name and it's annual income.</H1>
+    <form id="formulario" class="caja">
+        
+        <input type="text"  placeholder="Insert your client's name" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚú\s]+$" title="Name only accept letters and blank spaces" required>
+        <input type="number" placeholder="Insert your client income" pattern="^[0-9\s]+$" required tittle="You must only place numbers here">
+        
+        <input type="submit">
+    </form>
+
+    <ol id="clientes"></ol>
+
+    <script src="/assets/js/main.js" type="module"></script>
+   
+
+</body>
+</html>

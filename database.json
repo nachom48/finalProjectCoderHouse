@@ -1,0 +1,11 @@
+
+[
+    { "category": "a", "maxIncome": 466201, "havetoPay": 3334 },
+    { "category": "B", "maxIncome": 693002, "havetoPay": 3728 },
+    { "category": "C", "maxIncome": 970203, "havetoPay": 4190 },
+    { "category": "D", "maxIncome": 1335604,"havetoPay": 4907 },
+    { "category": "E", "maxIncome": 1764006,"havetoPay": 5936 },
+    { "category": "F", "maxIncome": 2205007,"havetoPay": 6825 },
+    { "category": "G", "maxIncome": 2646009,"havetoPay": 7772 },
+    { "category": "h", "maxIncome": 3276011,"havetoPay": 13445 }
+  ]
