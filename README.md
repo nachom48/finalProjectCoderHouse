@@ -1,4 +1,4 @@
-# finalProjectCoderHouse
+# Final Project for JavaScript - CoderHouse
 Final Project JavaScript CoderHouse
 
 
